@@ -1,0 +1,12 @@
+name = "vybfly-paper-relay"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Workers KV namespace that stores per-day bot/human counts.
+# The id below is a placeholder: `wrangler kv namespace create VYBFLY_STATS`
+# prints the real id to paste here (or just run the deploy script, which
+# creates the namespace and injects the id automatically).
+
+[[kv_namespaces]]
+binding = "VYBFLY_STATS"
+id = "969e497affc546e482d149fec6df3d26"

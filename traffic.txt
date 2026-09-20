@@ -1,0 +1,15 @@
+GitHub traffic archive for the Vyb-world repos
+
+last run: 2026-09-20T01:32:28Z
+
+repo         clones   views
+Vyb            1866      11
+VybFly          161       3
+VybForge        156       0
+VybOS           133       0
+
+paper-relay Worker (per route; humans vs crawlers vs tools):
+  route                     human    bot   tool  total
+  _legacy                       4      6      0     10
+      crawlers: gptbot 5, facebookexternalhit 1
+  /paper.pdf                    0      0      2      2

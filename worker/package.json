@@ -1,0 +1,12 @@
+{
+  "name": "vybfly-paper-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker that serves the VybFly paper and counts crawlers vs humans",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.135.0"
+  }
+}

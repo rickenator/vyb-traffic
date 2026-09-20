@@ -1,0 +1,19 @@
+# Local dev state — miniflare sqlite caches, not source.
+worker/.wrangler/
+
+# Wrangler's npm deps (the project runs via `npx wrangler@4`, so these
+# stub dirs are not needed to build or deploy).
+worker/node_modules/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Secrets. The token lives in ~/.hermes/.env and is read at runtime;
+# a .env must never land here.
+.env
+.env.*
+*.env
+
+# macOS / editor noise
+.DS_Store

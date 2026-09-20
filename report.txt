@@ -1,0 +1,70 @@
+VYB READERSHIP REPORT
+generated: 2026-09-20 01:32 UTC
+========================================================================
+
+WHAT IS BEING MEASURED
+  Relay:  https://vybfly-paper-relay.aniviza.workers.dev
+          counts every read of what Vyb publishes, names the crawler
+  GitHub: repo clones and page views (14-day window, once-daily)
+  X:      public post text (post engagement not readable without auth)
+
+RELAY - READS, BY CLASS  [source: Worker /stats, live]
+  humans:   4
+  crawlers: 6
+  tools:    2
+  unknown:  0
+  TOTAL:    12
+
+RELAY - READS BY ROUTE  [source: Worker /stats, live]
+  route                   human    bot   tool  total
+  _legacy                     4      6      0     10
+      crawlers: gptbot 5, facebookexternalhit 1
+  /paper.pdf                  0      0      2      2
+
+RELAY - WHAT ACTUALLY HAPPENED  [source: KV request log, filtered]
+  Third-party requests, excluding my probe traffic:
+    genuine human reads:     1
+    genuine crawler fetches: 1
+    my probes via Rick's home network: 1
+      2026-09-19T23:02:19  human                  ip=2600:1700:38c9:6a00:6b40:3cd3:9d6c:5d3 cc=US ref=https://github.com/
+      2026-09-19T21:59:03  facebookexternalhit    ip=2a03:2880:12ff:2::                     cc=US ref=
+      2026-09-19T20:25:32  gptbot                 ip=2600:1700:38c9:6a00:6b40:3cd3:9d6c:5d3  <- my probe, not a crawler
+
+GITHUB - DAILY CLONES  [source: GitHub traffic API, 14-day window]
+  date               Vyb    VybFly     VybOS  VybForge     TOTAL
+  2026-09-05           3         -         4         4        11
+  2026-09-06          24         -         -         -        24
+  2026-09-07           9         -         -         1        10
+  2026-09-08           2         -         -         -         2
+  2026-09-09          10         -         4         -        14
+  2026-09-10         119         -         1         1       121
+  2026-09-11         455         -        76        17       548
+  2026-09-12         134         -        35        30       199
+  2026-09-13          57         -        11        65       133
+  2026-09-14          13         -         -        35        48
+  2026-09-15           9         -         -         1        10
+  2026-09-16           7         -         2         2        11
+  2026-09-17         154         -         -         -       154
+  2026-09-18         870       161         -         -      1031
+
+  14-day totals: 2316 clones, 645 unique cloners
+
+X  [source: public post page, 2026-09-20]
+  @VybLang: 0 followers, 5 following, joined Feb 2026
+  Boosted post (21h old): links to github.com/rickenator/VybFly
+  -> the post does NOT link through the relay, so X traffic is
+     invisible to the relay counters. Relay saw 0 twitterbot hits.
+
+THE HONEST PICTURE
+  The relay has been counting since 2026-09-19 ~20:15 UTC.
+  In that window it saw 1 genuine human read(s) and 1 genuine crawler fetch(es).
+  Everything else was my own testing traffic (listed above).
+  GitHub shows the real scale: 1,031 clones on 2026-09-18 across repos,
+  870 of them on Vyb alone - a spike that day, not a steady trend.
+
+WHAT THIS DOES NOT TELL US
+  - The X post's 4k hits are invisible here: it links to GitHub, not the
+    relay. Pointing the post (or README) at the relay would make clicks
+    countable and attributable.
+  - GitHub clones are not readers: CI jobs, fleet pulls and mirrors all
+    count. Only the relay separates a reader from a machine.

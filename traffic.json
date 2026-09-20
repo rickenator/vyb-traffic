@@ -1,0 +1,624 @@
+{
+  "_meta": {
+    "honest_split": {
+      "genuine_crawler_fetches": 1,
+      "genuine_human_reads": 1,
+      "own_probes": "remainder (curl/UA tests from apex egress and home network)"
+    },
+    "last_run_utc": "2026-09-20T01:32:28Z",
+    "note_days": "Per-day buckets are written as they were classified AT THE TIME. 2026-09-19 therefore shows pre-fix buckets (curl/bingbot/googlebot) because the 'tool' kind did not exist yet; those requests were my own probes. The rollup under 'routes' applies the CURRENT classifier. Both are kept: raw = faithful history, rollup = best present-day reading.",
+    "totals": {
+      "clones": 2316,
+      "views": 14
+    }
+  },
+  "repos": {
+    "Vyb": {
+      "clones": {
+        "2026-09-05": {
+          "count": 3,
+          "uniques": 3
+        },
+        "2026-09-06": {
+          "count": 24,
+          "uniques": 18
+        },
+        "2026-09-07": {
+          "count": 9,
+          "uniques": 9
+        },
+        "2026-09-08": {
+          "count": 2,
+          "uniques": 2
+        },
+        "2026-09-09": {
+          "count": 10,
+          "uniques": 6
+        },
+        "2026-09-10": {
+          "count": 119,
+          "uniques": 31
+        },
+        "2026-09-11": {
+          "count": 455,
+          "uniques": 68
+        },
+        "2026-09-12": {
+          "count": 134,
+          "uniques": 54
+        },
+        "2026-09-13": {
+          "count": 57,
+          "uniques": 30
+        },
+        "2026-09-14": {
+          "count": 13,
+          "uniques": 10
+        },
+        "2026-09-15": {
+          "count": 9,
+          "uniques": 8
+        },
+        "2026-09-16": {
+          "count": 7,
+          "uniques": 6
+        },
+        "2026-09-17": {
+          "count": 154,
+          "uniques": 26
+        },
+        "2026-09-18": {
+          "count": 870,
+          "uniques": 132
+        }
+      },
+      "paths": {
+        "_latest": [
+          {
+            "count": 8,
+            "path": "/rickenator/Vyb",
+            "title": "Overview",
+            "uniques": 4
+          },
+          {
+            "count": 1,
+            "path": "/rickenator/Vyb/actions/runs/34643358739",
+            "title": "/actions/runs/34643358739",
+            "uniques": 1
+          },
+          {
+            "count": 1,
+            "path": "/rickenator/Vyb/blob/main/demos/VybLynx/src/main.vyb",
+            "title": "/blob/main/demos/VybLynx/src/main.vyb",
+            "uniques": 1
+          },
+          {
+            "count": 1,
+            "path": "/rickenator/Vyb/blob/main/docs/refman/PROGRAMMERS_GUIDE.md",
+            "title": "/blob/main/docs/refman/PROGRAMMERS_GUIDE.md",
+            "uniques": 1
+          }
+        ]
+      },
+      "referrers": {
+        "_latest": [
+          {
+            "count": 5,
+            "referrer": "vyb-lang.org",
+            "title": null,
+            "uniques": 2
+          },
+          {
+            "count": 3,
+            "referrer": "github.com",
+            "title": null,
+            "uniques": 2
+          },
+          {
+            "count": 1,
+            "referrer": "vyb-lang.com",
+            "title": null,
+            "uniques": 1
+          }
+        ]
+      },
+      "views": {
+        "2026-09-05": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-08": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-09": {
+          "count": 4,
+          "uniques": 3
+        },
+        "2026-09-10": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-11": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-12": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-13": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-14": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-15": {
+          "count": 2,
+          "uniques": 2
+        },
+        "2026-09-16": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 0,
+          "uniques": 0
+        }
+      }
+    },
+    "VybFly": {
+      "clones": {
+        "2026-09-05": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-08": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-09": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-10": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-11": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-12": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-13": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-14": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-15": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-16": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 161,
+          "uniques": 84
+        }
+      },
+      "paths": {
+        "_latest": [
+          {
+            "count": 2,
+            "path": "/rickenator/VybFly/blob/main/paper.pdf",
+            "title": "/blob/main/paper.pdf",
+            "uniques": 1
+          },
+          {
+            "count": 1,
+            "path": "/rickenator/VybFly/tree/main",
+            "title": "/tree/main",
+            "uniques": 1
+          }
+        ]
+      },
+      "referrers": {
+        "_latest": []
+      },
+      "views": {
+        "2026-09-05": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-08": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-09": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-10": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-11": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-12": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-13": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-14": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-15": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-16": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 3,
+          "uniques": 1
+        }
+      }
+    },
+    "VybForge": {
+      "clones": {
+        "2026-09-05": {
+          "count": 4,
+          "uniques": 4
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-08": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-09": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-10": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-11": {
+          "count": 17,
+          "uniques": 10
+        },
+        "2026-09-12": {
+          "count": 30,
+          "uniques": 17
+        },
+        "2026-09-13": {
+          "count": 65,
+          "uniques": 35
+        },
+        "2026-09-14": {
+          "count": 35,
+          "uniques": 20
+        },
+        "2026-09-15": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-16": {
+          "count": 2,
+          "uniques": 2
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 0,
+          "uniques": 0
+        }
+      },
+      "paths": {
+        "_latest": []
+      },
+      "referrers": {
+        "_latest": []
+      },
+      "views": {
+        "2026-09-05": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-08": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-09": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-10": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-11": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-12": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-13": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-14": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-15": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-16": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 0,
+          "uniques": 0
+        }
+      }
+    },
+    "VybOS": {
+      "clones": {
+        "2026-09-05": {
+          "count": 4,
+          "uniques": 4
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-08": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-09": {
+          "count": 4,
+          "uniques": 2
+        },
+        "2026-09-10": {
+          "count": 1,
+          "uniques": 1
+        },
+        "2026-09-11": {
+          "count": 76,
+          "uniques": 35
+        },
+        "2026-09-12": {
+          "count": 35,
+          "uniques": 16
+        },
+        "2026-09-13": {
+          "count": 11,
+          "uniques": 7
+        },
+        "2026-09-14": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-15": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-16": {
+          "count": 2,
+          "uniques": 2
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 0,
+          "uniques": 0
+        }
+      },
+      "paths": {
+        "_latest": []
+      },
+      "referrers": {
+        "_latest": []
+      },
+      "views": {
+        "2026-09-05": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-06": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-07": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-08": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-09": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-10": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-11": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-12": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-13": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-14": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-15": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-16": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-17": {
+          "count": 0,
+          "uniques": 0
+        },
+        "2026-09-18": {
+          "count": 0,
+          "uniques": 0
+        }
+      }
+    }
+  },
+  "worker": {
+    "_last_run_utc": "2026-09-20T01:32:33Z",
+    "_url": "https://vybfly-paper-relay.aniviza.workers.dev",
+    "days": {
+      "2026-09-19": {
+        "_legacy": {
+          "bingbot": 1,
+          "curl": 5,
+          "facebookexternalhit": 1,
+          "googlebot": 1,
+          "gptbot": 5,
+          "human": 4
+        }
+      },
+      "2026-09-20": {
+        "/paper.pdf": {
+          "curl": 2
+        }
+      }
+    },
+    "routes": {
+      "/paper.pdf": {
+        "bot": 0,
+        "bots": {},
+        "human": 0,
+        "name": "VybFly paper",
+        "tool": 2,
+        "tools": {
+          "curl": 2
+        },
+        "total": 2,
+        "unknown": 0
+      },
+      "_legacy": {
+        "bot": 6,
+        "bots": {
+          "facebookexternalhit": 1,
+          "gptbot": 5
+        },
+        "human": 4,
+        "name": "legacy (pre-routes)",
+        "tool": 0,
+        "tools": {},
+        "total": 10,
+        "unknown": 0
+      }
+    },
+    "totals": {
+      "curl": 2,
+      "facebookexternalhit": 1,
+      "gptbot": 5,
+      "human": 4
+    }
+  }
+}
